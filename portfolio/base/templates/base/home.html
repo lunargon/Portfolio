@@ -1,1 +1,103 @@
-<h3>Test</h3>
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Nguyen Thanh Luan</title>
+	<link href="{% static '/css/style.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/Lunar.jpg' %}">
+					<hr>
+					<h4>Hi I'm Lunar!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Waiting for first job</h4>
+					<hr>
+					<p>Now I done all subjects in unversity and want to become a real software engineer!</p>
+
+					<p>Before I knew it we transitioned from the old system and we're on to mine. My newbie self was now
+						in charge of hosting hundreds of thousands of lab samples and supporting thousands of clients.
+					</p>
+
+					<p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something
+						scary.</p>
+
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/ntluandev/"><img class="social"
+									src="{% static 'images/facebook.png' %}"></a></li>
+						<li><a href="https://www.linkedin.com/in/thanh-luan-nguyen-9675b1214/"><img class="social"
+									src="{% static 'images/linkedin.png' %}"></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience</h5>
+					<hr>
+					<p>Programing Mentor - MindX</p>
+					<p>Intern Software Engineer - ITD Group</p>
+					<p>Fresher Software Engineer - Athena Studio </p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Frontend: HTML/CSS, JavaScript</p>
+					<p>Backend: Python, Django, Golang, Rust, Postgres, AWS and APIs such as google maps</p>
+					<p>Other: Blockchain with Rust</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Where I Learn</h5>
+					<hr>
+					<p>I'm Software Engineering of Ton Duc Thang University</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break
+						the code where I need to figure out why things work the way they do. Documentation is just a
+						reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+					<hr>
+					<p>Actually I want to have job to earn more experience and dedicate for compapy.</p>
+					<p>Aside from building small projects I would love to enter a position where I can be part of a
+						bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+
+</html>
